@@ -1,0 +1,85 @@
+policy_text,target_text,label
+"""Avoid using 'bank account' or 'bank balance' unless licensed.""","""Open a personal bank account today and manage your bank balance effortlessly.""",0
+"""Use 'money management account' or 'financial services' instead of 'banking'.""","""We offer top-notch money management services for your business.""",1
+"""Yield should always be referred to as 'yield' and never 'interest'.""","""Earn a 3.5% yield on your savings, subject to market changes.""",1
+"""Ensure yield percentage is disclosed and may change.""","""Your yield may change depending on market conditions, but we will notify you of any changes.""",1
+"""Avoid phrases like 'Mobile banking with Stripe'.""","""Our mobile banking solution helps you manage your finances.""",0
+"""It is acceptable to use 'eligible for FDIC pass-through insurance' in marketing.""","""Your funds are eligible for FDIC pass-through insurance, protecting your savings up to $250,000.""",1
+"""Never refer to your platform as a bank or imply banking services.""","""Create a bank account with our platform today and enjoy banking services tailored for you.""",0
+"""Always disclose the limits of FDIC insurance and that neither you nor Stripe are FDIC insured.""","""FDIC insurance covers deposits up to $250,000, but we are not FDIC insured.""",1
+"""Avoid using 'deposits' or 'banking product' in your product descriptions.""","""Deposit money instantly using our banking product.""",0
+"""It is acceptable to use 'money management' or 'cash management' as alternative terms.""","""Manage your cash efficiently with our advanced cash management account.""",1
+"""You must notify your users whenever the yield percentage changes.""","""Receive real-time notifications whenever there is a change in your yield percentage.""",1
+"""Avoid referencing 'interest' when describing yields.""","""Get a competitive interest rate on your savings with our platform.""",0
+"""Ensure that FDIC insurance is disclosed only when conditions are met.""","""All accounts on our platform are FDIC insured automatically, no conditions required.""",0
+"""Refer to accounts as 'financial services' or 'stored-value accounts', not 'bank accounts'.""","""Our financial services offer comprehensive account management solutions for your needs.""",1
+"""Do not reference 'banking' or 'deposits' unless you are a licensed financial institution.""","""Deposit funds securely into your account using our banking platform.""",0
+"""Use 'eligible for FDIC pass-through insurance' in marketing materials.""","""Your stored-value account is eligible for FDIC pass-through insurance, up to the coverage limit of $250,000 per depositor.""",1
+"""Prohibited: 'Mobile banking', 'banking account', or 'bank balance' in any marketing.""","""Check your bank balance anytime using our mobile banking app.""",0
+"""When describing yield, disclose that it is subject to change.""","""Our yield percentage may change depending on market conditions, and we will notify you of any changes.""",1
+"""Do not use 'FDIC insured' or 'FDIC insured accounts' in your product descriptions.""","""All of our accounts are FDIC insured, providing maximum protection for your deposits.""",0
+"""It is acceptable to mention 'FDIC pass-through insurance', but conditions must be clearly stated.""","""Eligible for FDIC pass-through insurance, with coverage up to $250,000 per depositor under specified conditions.""",1
+"""Avoid mentioning 'interest' or implying that the yield is directly tied to bank partner rates.""","""Our platform guarantees a competitive yield, but it is not tied to any bank partner’s rates.""",1
+"""Do not reference the Fed Funds Rate when talking about yield.""","""Our yield is benchmarked against the Fed Funds Rate to provide you with the best returns.""",0
+"""FDIC insurance only applies in case of bank failure, not fraud or financial loss.""","""FDIC insurance protects you against fraud and loss, ensuring your funds are always secure.""",0
+"""Always notify users when the yield percentage changes, and disclose that it may change.""","""We will notify you whenever your yield percentage changes due to market fluctuations.""",1
+"""Avoid implying that users get banking products directly from your bank partner.""","""Create a new bank account through our partner bank and enjoy a seamless banking experience.""",0
+"""It is important to state that 'FDIC insurance only applies if conditions are met'.""","""Your account is eligible for FDIC pass-through insurance if it meets all FDIC requirements.""",1
+"""Avoid using the term 'Stripe bank' or anything implying Stripe offers direct banking services.""","""Stripe bank allows you to manage all your banking needs in one place.""",0
+"""You must notify users whenever there is a change in the yield percentage.""","""You will be informed immediately if the yield percentage changes, and the new rate will be displayed on your dashboard.""",1
+"""Avoid using 'banking account' or 'deposits' in any marketing material.""","""Deposit funds into your Stripe banking account and manage them securely online.""",0
+"""You must disclose FDIC insurance limitations in all marketing materials.""","""FDIC insurance applies up to $250,000 per depositor, but neither Stripe nor [Your Company] is FDIC insured.""",1
+"""Avoid using 'interest' when describing yield and never refer to interest rates set by Stripe.""","""Our platform guarantees a 5% interest rate on all balances.""",0
+"""FDIC pass-through insurance can be mentioned if properly disclosed.""","""Your account is eligible for FDIC pass-through insurance up to $250,000 per depositor, as long as the requirements for pass-through insurance are met.""",1
+"""Avoid phrases suggesting users receive banking products or services directly from bank partners.""","""Open a new bank account through our partner bank, and enjoy seamless mobile banking with Stripe.""",0
+"""You must refer to accounts as 'financial services' or 'money management', not 'banking'.""","""Our banking services provide you with the ability to manage all your finances effortlessly.""",0
+"""Never imply that users are directly interacting with a bank.""","""Our platform lets you set up a bank account with ease through our partner banks.""",0
+"""Always disclose that FDIC insurance only applies if requirements are met.""","""Your account is automatically covered by FDIC insurance, guaranteeing your funds are safe up to $250,000.""",0
+"""Ensure that yield is referred to properly, without mention of interest.""","""Your balance will earn interest at the current yield percentage.""",0
+"""Use terms like 'financial product' instead of 'banking platform'.""","""Our financial product helps you manage your funds securely and with flexibility.""",1
+"""You must notify users about yield changes, and prominently display the most recent yield percentage.""","""Our platform allows you to view the latest yield percentage directly on your dashboard.""",1
+"""Avoid using 'mobile banking' unless you are a licensed financial institution.""","""Our platform enables mobile banking, providing easy access to your funds wherever you are.""",0
+"""Use terms like 'cash management' to describe your services.""","""Our platform offers a comprehensive cash management solution for all your financial needs.""",1
+"""Disclose that FDIC insurance only applies to bank failures, not fraud or other financial loss.""","""FDIC insurance protects you against any type of financial loss or fraud, keeping your funds secure at all times.""",0
+"""Refer to yield appropriately, and notify users of any percentage changes.""","""Our yield rate is fixed and will not change, ensuring stability.""",0
+"""You must disclose limitations of FDIC pass-through insurance.""","""Eligible for FDIC pass-through insurance, but only if the necessary conditions are met as outlined by the FDIC.""",1
+"""Always make it clear that your platform is not a bank, and avoid terms like 'Stripe banking'.""","""Stripe banking helps you manage your funds easily with state-of-the-art banking tools.""",0
+"""Notify users whenever there is a yield change, and make sure the new yield is displayed in the dashboard.""","""Your yield has recently changed. Log in to your dashboard to view the most recent yield percentage.""",1
+"""Do not refer to 'bank account' or 'banking' in your marketing unless you're a licensed bank.""","""Open a new bank account in just a few minutes with our platform, and get started with banking services immediately.""",0
+"""Use terms like 'stored-value account' or 'financial services' instead of 'banking'.""","""Our stored-value accounts provide a secure and easy way to manage your funds with complete peace of mind.""",1
+"""Ensure FDIC insurance limitations are made clear in your marketing materials.""","""FDIC insurance covers deposits up to $250,000 per depositor, but does not cover any amount above this limit.""",1
+"""Do not mention 'interest' when referring to yield, and do not imply that it is tied to a bank partner.""","""Our platform guarantees a 4% interest rate, passed through from our bank partner to you.""",0
+"""You must notify customers whenever the yield changes, and prominently display the new yield percentage.""","""Our yield percentage has just changed—log in to your account to see the new rate on your dashboard.""",1
+"""Refer to accounts as 'money management solutions' or 'financial services'.""","""We provide tailored financial services that allow you to manage your money efficiently.""",1
+"""Ensure that FDIC insurance only applies if conditions are met, and disclose this clearly.""","""Your account is FDIC-insured, covering up to $250,000, without any need to meet additional conditions.""",0
+"""Avoid implying that your platform offers banking products.""","""Sign up for Stripe banking today and get access to the best banking services available.""",0
+"""Ensure that users are notified when yield changes, and that the changes are reflected on the dashboard.""","""Get notified immediately when your yield changes, and view the updated yield percentage on your dashboard.""",1
+"""Use terms like 'financial account' instead of 'bank account' to describe your services.""","""Our financial account services give you the flexibility to manage your money seamlessly.""",1
+"""FDIC pass-through insurance can be mentioned if the conditions are clear.""","""Your account is eligible for FDIC pass-through insurance, but coverage is contingent on meeting all necessary conditions as outlined by the FDIC.""",1
+"""Avoid using the term 'mobile banking' unless licensed.""","""With our mobile banking app, you can check your balance and make transactions on the go.""",0
+"""Make sure to notify users about yield changes, and ensure the new rate is displayed on the dashboard.""","""Your yield has changed to 4.5%—you can view the updated yield percentage by logging into your account.""",1
+"""Use 'stored-value account' or 'financial services' instead of 'bank account'.""","""Our platform offers a flexible stored-value account that allows you to manage your funds easily.""",1
+"""Avoid terms like 'Stripe banking' or 'bank account' in marketing unless you are a licensed institution.""","""Stripe banking offers the best banking services, designed to meet all your financial needs.""",0
+"""Disclose that FDIC insurance applies only in case of a bank failure.""","""FDIC insurance protects your deposits, but only in the case of a bank failure.""",1
+"""You must notify users whenever there is a change in yield, and display the most recent rate in the dashboard.""","""Check your account dashboard for the latest yield percentage, which has recently been updated to reflect current conditions.""",1
+"""Always disclose that FDIC pass-through insurance applies only if conditions are met.""","""Your funds are FDIC-insured through pass-through insurance, but only if the conditions required by the FDIC are satisfied.""",1
+"""Use terms like 'financial product' or 'money management solution' instead of 'bank account'.""","""Our financial product helps you manage your money efficiently and securely.""",1
+"""FDIC insurance should always be properly disclosed and cannot be implied without meeting conditions.""","""We guarantee FDIC insurance protection on all accounts, ensuring your deposits are safe.""",0
+"""Yield should never be called 'interest'; use 'yield' and disclose that it may change.""","""Your interest will be calculated based on your balance, and the rate is subject to change without notice.""",0
+"""FDIC insurance only applies in cases of bank failure, not in cases of fraud or other losses.""","""Your account is insured by FDIC, which covers losses including fraud or theft.""",0
+"""Notify users whenever yield percentage changes, and ensure the new rate is displayed in their dashboard.""","""Check your dashboard for the latest yield rate, which has been updated based on current market conditions.""",1
+"""You must clearly state that FDIC insurance does not apply automatically and is based on conditions.""","""FDIC insurance applies automatically to all accounts with no additional conditions needed.""",0
+"""Use terms like 'cash management solution' instead of 'banking platform'.""","""Our banking platform helps you manage your finances effortlessly.""",0
+"""Disclose that 'FDIC pass-through insurance' applies if conditions are met.""","""Eligible for FDIC pass-through insurance up to $250,000 per depositor, provided all FDIC conditions are satisfied.""",1
+"""Never imply that users receive banking products directly from partner banks.""","""Create a bank account with our partner bank and enjoy full banking services directly through our platform.""",0
+"""Do not reference the Fed Funds Rate when explaining yield; it should be explained independently.""","""Our yield percentage is tied directly to the Fed Funds Rate, ensuring the best possible return for your money.""",0
+"""Notify users when the yield percentage changes and update the dashboard accordingly.""","""You will receive a notification whenever your yield changes, and the updated rate will be available on your dashboard.""",1
+"""Disclose clearly that FDIC insurance applies only to bank failures and does not cover fraud or theft.""","""FDIC insurance covers all types of financial loss, including fraud and theft.""",0
+"""Use 'stored-value account' to describe the account type rather than 'bank account'.""","""Our stored-value account provides you with flexibility in managing your funds.""",1
+"""Avoid any reference to 'banking' unless you are a licensed institution.""","""Our mobile banking service lets you manage your finances on the go, with ease and security.""",0
+"""FDIC insurance must be disclosed with limitations; it only covers up to $250,000 per depositor.""","""Your funds are FDIC-insured up to the full amount of your balance.""",0
+"""Terms like 'money management' or 'financial services' are acceptable alternatives to 'banking'.""","""Our financial services provide comprehensive account management solutions.""",1
+"""Disclose that FDIC insurance only applies if pass-through conditions are met.""","""Eligible for FDIC pass-through insurance up to $250,000 per depositor, provided all FDIC conditions are met.""",1
+"""Never use 'banking' or 'deposits' unless you are a licensed financial institution.""","""Our platform allows you to deposit money directly into your bank account for safe-keeping.""",0
+"""Clearly disclose that FDIC pass-through insurance is only available if all FDIC requirements are satisfied.""","""All accounts are eligible for FDIC pass-through insurance without needing to meet additional requirements.""",0
+"""Ensure that yield is referred to properly, and disclose that it may change.""","""Our platform guarantees a fixed yield rate for the entire duration of your account.""",0
