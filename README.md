@@ -21,3 +21,35 @@ This project uses the **Longformer** transformer model to check whether texts (l
 1. **Train the Model**: Fine-tune the Longformer model with policy text and labeled examples of compliant/non-compliant text.
 2. **Inference**: Run compliance checks via the FastAPI app by sending the policy text and target website content.
 3. **Result**: Get a boolean `isCompliant` that tells me if its compliant or not and an array of chunks with results.
+
+
+## Actual Request & Response
+
+```json
+{
+    "policy_website_url": "https://docs.stripe.com/treasury/marketing-treasury",
+    "target_website_url": "https://mercury.com"
+}
+```
+
+```json
+{
+    "result": {
+        "isCompliant": false,
+        "mistakes": [
+            {
+                "chunk": "Online Business Banking For Startups | Simplified Financial Workflows Products Resources About Pricing Log In Log In Open Account Log In Log In Open Account Open Menu Products Resources About Pricing  
+                 --- truncated ----
+                achieving PMF from AMAs. I highly recommend it. Ch",
+                "error": "Non-compliant content found"
+            },
+            {
+                "chunk": "arles Meyer Founder , My Better AI Building trust as a finance leader Read the Story Carolynn Levy, inventor of the SAFE Read the Story Sending international wires through SWIFT Read the Story Pricing 
+                 --- truncated ---
+                FDIC-insured bank . Banking services provided by Choice Financial Group , Column N.A. , and Evolve Bank & Trust , Members FDIC. Deposit insurance covers the failure of an insured bank.",
+                "error": "Non-compliant content found"
+            }
+        ]
+    }
+}
+```
