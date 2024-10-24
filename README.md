@@ -1,4 +1,4 @@
-# Compliance Checker Using Longformer
+# Compliance Checker Using Longformer, FastAPI
 
 This project uses the **Longformer** transformer model to check whether texts (like website content) comply with specific policies. The project is designed to automate compliance checks, especially for long documents, by splitting texts into smaller chunks, classifying each chunk as compliant or non-compliant, and providing feedback on specific non-compliant terms.
 
