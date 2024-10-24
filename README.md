@@ -1,4 +1,4 @@
-# AI Compliance Checker Using Longformer, FastAPI
+# AI Compliance Checker Using Longformer, FastAPI (Hobby Project)
 
 This project uses the **Longformer** transformer model to check whether texts (like website content) comply with specific policies. The project is designed to automate compliance checks, especially for long documents, by splitting texts into smaller chunks, classifying each chunk as compliant or non-compliant, and providing feedback on specific non-compliant terms.
 
@@ -17,7 +17,7 @@ We chose Longformer for this project because it is specifically designed to hand
 - Made sure to train with both positive and negative cases and tried to cover some edge cases as well
 
 
-## Corners Cut
+## Corners Cut/ Out of Scope
 
 - Didn't scan all subdomains
 - Didn't train a cloud model (didnt want to exceed an API limit), ran Longformer locally
