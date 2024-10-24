@@ -13,6 +13,8 @@ We chose Longformer for this project because it is specifically designed to hand
 - Now against the summarized policy, start validating every chunk of target website text
 - if any chunk is found to be non-compliant, consider the whole website to be non-compliant
 - Selected Longformer because I can run it locally and also it has a decent context window
+- Trained Longformer using some test data I generated with the help of ChatGPT
+- Made sure to train with both positive and negative cases and tried to cover some edge cases as well
 
 
 ## Corners Cut
